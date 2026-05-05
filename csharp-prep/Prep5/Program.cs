@@ -55,6 +55,6 @@ class Program
     static void DisplayResult(string name, int square, int birthYear)
     {
         Console.WriteLine($"{name}, the square of your number is {square}.");
-        Console.WriteLine($"{name}, you will turn {2025 - birthYear} years old this year.");
+        Console.WriteLine($"{name}, you will turn {2026 - birthYear} years old this year.");
     }
 }
