@@ -29,7 +29,7 @@ public class JournalBR
             foreach (EntryBR entry in _entriesBR)
             {
                 // Adding the daily goal to the file storage string
-                outputFile.WriteLine($"the date was {entry._dateBR}. {entry._promptTextBR}~|~{entry._entryTextBR}~|~{entry._moodBR}~|~{entry._dailyGoalBR}");
+                outputFile.WriteLine($"The date was {entry._dateBR}. Prompt answer was {entry._promptTextBR}. Your entry was{entry._entryTextBR}. My Mood was{entry._moodBR}. Your daily goals was{entry._dailyGoalBR}.");
             }
         }
     }
