@@ -12,23 +12,23 @@ public class Fraction
         _bottomBR = 1;
     }
 
-    public Fraction(int wholeNumberBR)
+    public Fraction(int wholeNumber)
     {
-        _topBR = wholeNumberBR;
+        _topBR = wholeNumber;
         _bottomBR = 1;
     }
 
-    public Fraction(int topBR, int bottomBR)
+    public Fraction(int top, int bottom)
     {
-        _topBR = topBR;
-        SetBottom(bottomBR);
+        _topBR = top;
+        SetBottom(bottom);
     }
 
-    public void SetBottom(int bottomBR)
+    public void SetBottom(int bottom)
     {
-        if (bottomBR != 0)
+        if (bottom != 0)
         {
-            _bottomBR = bottomBR;
+            _bottomBR = bottom;
         }
         else
         {
@@ -36,9 +36,9 @@ public class Fraction
         }
     }
 
-    public void SetTop(int topBR)
+    public void SetTop(int top)
     {
-        _topBR = topBR;
+        _topBR = top;
     }
 
     public int GetTop()
@@ -58,7 +58,7 @@ public class Fraction
         return text;
     }
 
-    public double GetDecimalValueBR()
+    public double GetDecimalValue()
     {
         // Notice that this is not stored as a member variable.
         // Is will be recomputed each time this is called.
