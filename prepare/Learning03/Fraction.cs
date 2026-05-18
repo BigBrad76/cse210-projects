@@ -1,30 +1,30 @@
 using System;
 
-public class FractionBR
+public class Fraction
 {
     private int _topBR;
     private int _bottomBR;
 
-    public FractionBR()
+    public Fraction()
     {
         // Default to 1/1
         _topBR = 1;
         _bottomBR = 1;
     }
 
-    public FractionBR(int wholeNumberBR)
+    public Fraction(int wholeNumberBR)
     {
         _topBR = wholeNumberBR;
         _bottomBR = 1;
     }
 
-    public FractionBR(int topBR, int bottomBR)
+    public Fraction(int topBR, int bottomBR)
     {
         _topBR = topBR;
-        SetBottomBR(bottomBR);
+        SetBottom(bottomBR);
     }
 
-    public void SetBottomBR(int bottomBR)
+    public void SetBottom(int bottomBR)
     {
         if (bottomBR != 0)
         {
@@ -36,21 +36,21 @@ public class FractionBR
         }
     }
 
-    public void SetTopBR(int topBR)
+    public void SetTop(int topBR)
     {
         _topBR = topBR;
     }
 
-    public int GetTopBR()
+    public int GetTop()
     {
         return _topBR;
     }
-    public int GetBottomBR()
+    public int GetBottom()
     {
         return _bottomBR;
     }
 
-    public string GetFractionStringBR()
+    public string GetFractionString()
     {
         // Notice that this is not stored as a member variable.
         // Is is just a temporary, local variable that will be recomputed each time this is called.

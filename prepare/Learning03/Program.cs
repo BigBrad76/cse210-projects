@@ -1,6 +1,6 @@
 using System;
-
-static void MainBR(string[] args)
+{
+static void Main(string[] args)
     {
         FractionBR f1 = new FractionBR();
         Console.WriteLine(f1.GetFractionStringBR());
@@ -31,3 +31,4 @@ static void MainBR(string[] args)
             Console.WriteLine($" Number: {f5.GetDecimalValueBR()}");
         }
     }
+}
