@@ -1,8 +1,8 @@
-string filename = "myFile.txt";
-string[] lines = System.IO.File.ReadAllLines(filename);
+// string filename = "myFile.txt";
+// string[] lines = System.IO.File.ReadAllLines(filename);
 
-foreach (string line in lines)
-{
+// foreach (string line in lines)
+// {
 
-    Console.WriteLine(line);
-}
+//     Console.WriteLine(line);
+// }
