@@ -22,7 +22,7 @@ CREATIVITY AND EXCEEDING REQUIREMENTS DISCLOSURE:
 
 namespace Develop04
 {
-    class Program
+    class Program 
     {
         static void Main(string[] args)
         {
@@ -61,7 +61,7 @@ namespace Develop04
                     default:
                         Console.WriteLine("Invalid option. Press Enter to try again.");
                         Console.ReadLine();
-                        break;
+                        break; // Returns to the begining of the program?
                 }
             }
         }
